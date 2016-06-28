@@ -1,0 +1,13 @@
+message TestInfo 
+{ 
+    optional int64     id = 1;  // ID 
+    optional string    str = 2;  // str 
+    optional int32     opt = 3;  //optional field
+}
+
+message TestInfos
+{
+    repeated TestInfo infos = 1;
+}
+
+
